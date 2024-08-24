@@ -1,0 +1,191 @@
+sudo pacman -Syu
+sudo pacman -S cosmic
+reboo
+reboot
+sudo pacman -S firefox
+sudo pacman -S grub os-prober
+sudo grub-install --target_x86_64-efi --efi-directory=/boot --bootloader-id=Archy
+sudo grub-install --efi-directory=/boot --bootloader-id=Archy
+sudo nano /etc/default/grub 
+sudo grub-mkconfig -o /boot/grub/grubcfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo efibootmgr
+sudo efibootmgr -b XXXX -b
+sudo efibootmgr -o 002F
+reboot
+os-prober
+sudo os-prober
+reboot
+sudo os-prober
+reboot
+sudo pacman -S grub-customizer
+reboot
+cd /etc/
+ls
+cd
+sudo pacman -S sddm
+sudo pacman -S sddm-kcm
+cd /etc/
+ls
+cd
+cd /usr/
+ls
+cd local/
+l
+ls
+cd bin/
+ls
+ls
+cd ..
+sudo nano /usr/share/sddm/themes/name/theme.conf.user
+sudo pacman -S qt5-graphicaleffects qt5-quickcontrols qt5-quickcontrols2 qt5-svg
+sudo systemctl enable sddm
+sudo nano /etc/sddm.conf
+cd /usr/share/sddm/themes
+ls
+sudo pacman -S qt5-quickcontrols-nemo
+sudo systemctl status sddm
+sudo systemctl status sddm.service
+sddm-greeter --test-mode --theme /usr/share/sddm/themes/delicious
+sddm-greeter --test-mode --theme /usr/share/sddm/themes/Federation/
+sudo pacman -S qt5-quickcontrols
+sddm-greeter --test-mode --theme /usr/share/sddm/themes/Federation/
+sddm-greeter --test-mode --theme /usr/share/sddm/themes/Federation/
+sddm-greeter --test-mode --theme /usr/share/sddm/themes/PC-DOS/
+sddm-greeter --test-mode --theme /usr/share/sddm/themes/PC-DOS/
+cd /usr/share/sddm/
+ls
+cd themes/
+ls
+cd WarGames/
+ls
+nano theme.conf
+nano DisplayText 
+nano theme.conf.user 
+nano Main.qml 
+sudo nano Main.qml 
+sudo pacman -S chromium
+sudo pacman -S --needed base-devel git
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+cd
+paru
+paru -S hyprland
+paru -S fastfetch kitty nemo rofi swappy swaync wallust waybar wlogout
+reboot
+cd /run/media/spacepirate/3f6ac16e-771d-4702-b544-ce4678300e4e
+cp -r .config/ /home/spacepirate/
+sudo cp -r .config/ /home/spacepirate/
+cd .config/
+sudo cp -r hypr/ /home/spacepirate/.config/
+cd .config/hypr/
+ls
+reboot
+cd 
+cd .config/hypr/
+nano hyprland.conf 
+nemo
+cd .config/hypr/
+ls
+nano hyprland.conf 
+sudo pacman -S nerd-fonts-complete
+sudo pacman -S nerd-fonts
+fc-cache -fv
+waybar
+reboot
+cd .config/hypr/
+cp hyprland.conf hyprland.conf.bak
+naon hyprland.conf
+nano hyprland.conf
+nemo
+nemo
+cd .config/hypr/UserConfigs/
+nano UserSettings.conf 
+waybar
+rofi
+cd .config/rofi/
+ls
+cd .
+cd ..
+cd hypr/UserConfigs/
+ls
+nano UserKeybinds.conf 
+rofi -drun
+paru -S wofi
+wofi
+wofi --show
+wofi -h
+paru -S rofi-browser
+rofi-browser
+shutdown now
+ls -la
+nano .bash_history 
+nano .bashrc 
+nano .bash_profile 
+cp .bash_history Documents/
+nnn
+cd .config/hypr/
+ls
+cd scripts/
+ls
+ll
+ls -la
+./LockScreen.sh 
+nano LockScreen.sh 
+paru -S vscodium
+cd .config/hypr/UserConfigs/
+ls
+nano UserKeybinds.conf 
+nano WindowRules.conf 
+reboot
+paru -S code
+nano .config/hypr/UserScripts/WallpaperSelect.sh 
+nano .config/hypr/UserScripts/WallpaperSelect.sh 
+reboot
+cd ..
+ls
+cd configs/
+ls
+nano k
+nano Keybinds.conf 
+cd ..
+cd UserScripts/
+ls
+nano WallpaperSelect.sh
+cd .config/hypr/UserConfigs/
+ls
+nano UserKeybinds.conf 
+cd .config/ro
+cd .config/rofi/
+ls
+nano config-wallpaper.rasi 
+paru -s konsole
+paru -S konsole
+ira[spacepira[spacepira[spacepira[spacepira[spacepira; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+what you are looking for? Try searching again using different criteria, or try searching the AUR to see if the package can be found there.
+You are browsing the Arc
+paru -s power-profiles-daemon
+paru -s power-profiles-daemon
+paru -s power-profiles-daemon
+paru -S power-profiles-daemon
+sudo systemctl power-profiles-daemon
+sudo systemctl enable power-profiles-daemon
+sudo systemctl start power-profiles-daemon
+
+power-profiles-daemon
+powerprofilesctl
+cd /etc
+ll
+ls -la
+sudo systemctl status upower
+upower
+sudo pacman -S poewrdevil upower acpi acpid
+sudo pacman -S powerdevil upower acpi acpid
+sudo sytemctl enable acpid
+sudo systemctl enable acpid
+sudo systemctl enable acpi
+sudo systemctl start acpid
+sudo systemctl enable upower
+sudo systemctl start upower
+reboot

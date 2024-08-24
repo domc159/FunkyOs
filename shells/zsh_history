@@ -1,0 +1,40 @@
+ll
+cd
+cd .config
+ls
+sudo ls
+which ls
+cd
+nano .zshrc
+ls
+nano .zshrc
+ll
+l
+exit
+ls
+nano .zshrc
+exit
+lt
+ll
+l
+ls
+nano .zshrc
+exit
+nano .zshrc
+zsh-autosuggestion
+zsh-autosuggestions
+nano .zshrc
+paru oh-my-zsh-git
+paru -S oh-my-zsh-git
+oh-my-zsh
+omz
+ohmyzsh
+paru -Rns oh-my-zsh-git
+\
+\
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"        \
+\
+
+: 1724482489:0;paru -S fish
+: 1724482502:0;_fsh
+: 1724482518:0;fish
