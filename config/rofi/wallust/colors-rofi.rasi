@@ -1,0 +1,27 @@
+* {
+    active-background: #87C38A;      /* Green (Command) */
+    active-foreground: #000000;      /* Black (Host) */
+    normal-background: #85BEFD;      /* Blue (Path) */
+    normal-foreground: #000000;      /* Black (Host) */
+    urgent-background: #FD5FF1;      /* Red (Syntax string) */
+    urgent-foreground: #000000;      /* Black (Host) */
+
+    alternate-active-background: #FFD7B1;  /* Yellow (Command second) */
+    alternate-active-foreground: #000000;  /* Black (Host) */
+    alternate-normal-background: #85BEFD;  /* Blue (Path) */
+    alternate-normal-foreground: #000000;  /* Black (Host) */
+    alternate-urgent-background: #FD5FF1;  /* Red (Syntax string) */
+    alternate-urgent-foreground: #000000;  /* Black (Host) */
+
+    selected-active-background: #87C38A;   /* Green (Command) */
+    selected-active-foreground: #000000;   /* Black (Host) */
+    selected-normal-background: #000000;   /* Black (Host) */
+    selected-normal-foreground: #85BEFD;   /* Blue (Path) */
+    selected-urgent-background: #ffbf5d;   /* Sand (Syntax string) */
+    selected-urgent-foreground: #000000;   /* Black (Host) */
+
+    background-color: #161719;             /* Background */
+    background: rgba(22,23,25,0.9);        /* Background with opacity */
+    foreground: #C5C8C6;                   /* Foreground (Text) */
+    border-color: #FFD7B1;                 /* Yellow (Command second) */
+}
