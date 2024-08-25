@@ -11,5 +11,8 @@ sudo pacman -S --needed --noconfirm cosmic firefox os-prober grub-customizer qt5
 yay -S --needed --noconfirm wallust wlogout
 cp -r ~/FunkyOs/config/* ~/.config/
 
+sudo chmod 777 ~/.config/hypr/UserScripts/*
+sudo chmod 777 ~/.config/hypr/scripts/*
+
 
 
