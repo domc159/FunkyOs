@@ -1,4 +1,3 @@
-cosmic
 firefox
 os-prober
 grub-customizer
