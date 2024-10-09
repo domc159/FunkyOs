@@ -1,3 +1,11 @@
+hyprpaper
+hyprpicker
+hypridle
+hyprlock
+hyprcursor
+xdg-desktop-portal-hyprland
+xorg-xwayland
+xwaylandvideobridge
 os-prober
 grub-customizer
 qt5-graphicaleffects
@@ -24,3 +32,4 @@ upower
 acpi
 acpid
 fish 
+uwsm
