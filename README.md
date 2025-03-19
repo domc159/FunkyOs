@@ -1,7 +1,7 @@
-FunkyOS based on Arch with Hyprland and new cosmic DE
+Custom hyprland DE for arch linux with vannila hyprland
 Installation:
 1)  sudo pacman -S git
-2)  git clone https://github.com/domc159/FunkyOs.git
+2)  git clone https://github.com/domc159/FunkyOS.git
 3)  cd FunkyOs
 4)  sudo chmod 777 *
 5)  ./install.sh
